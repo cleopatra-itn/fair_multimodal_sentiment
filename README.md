@@ -10,3 +10,25 @@ The repository for the splits and code used in the paper
 - 0 (Neutral), 1 (Positive), 2 (Negative)
 - Split file rows point to the line number in valid_pairlist.txt
 - `multimodal label` is used for training and evaluating all the models.
+
+
+
+```
+@article{DBLP:journals/corr/abs-2106-08829,
+  author    = {Gullal S. Cheema and
+               Sherzod Hakimov and
+               Eric M{\"{u}}ller{-}Budack and
+               Ralph Ewerth},
+  title     = {A Fair and Comprehensive Comparison of Multimodal Tweet Sentiment
+               Analysis Methods},
+  journal   = {CoRR},
+  volume    = {abs/2106.08829},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2106.08829},
+  archivePrefix = {arXiv},
+  eprint    = {2106.08829},
+  timestamp = {Tue, 29 Jun 2021 16:55:04 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2106-08829.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
