@@ -6,9 +6,10 @@ The repository for the splits and code used in the paper
 
 Paper is available on arXiv: https://arxiv.org/abs/2106.08829
 
-## Data
+## Data and Environment
 - Available at https://mcrlab.net/research/mvsa-sentiment-analysis-on-multi-view-social-data/
 - Download and extract images and texts into separate folders in `data/mvsa_single/` and `data/mvsa_multiple/`
+- Create an environment using environment.yml with conda
 ## Splits
 - 10 Fold Train/Val/Test splits provided in data/ for MVSA-single and MVSA-multiple.
 - valid_pairlist.txt format is `file_id (filename), multimodal label, text label, image label`
