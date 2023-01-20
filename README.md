@@ -27,6 +27,9 @@ Paper is available on arXiv: https://arxiv.org/abs/2106.08829
 - With one type of visual feature and BERT feature: `python train/multi_mlp_2mod.py --vtype clip --ttype clip --mvsa single --ht True --bs 32 --split 1`
 
 
+## Cite
+If you find the code and paper useful, kindly give a star and cite us as below:
+
 ```
 @inproceedings{DBLP:conf/mir/CheemaHME21,
   author    = {Gullal S. Cheema and
