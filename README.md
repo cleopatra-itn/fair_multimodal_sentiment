@@ -18,8 +18,8 @@ Paper is available on arXiv: https://arxiv.org/abs/2106.08829
 - `multimodal label` is used for training and evaluating all the models.
 
 ## Extract Features
-- Download pretrained models to `pre_trained` : [places](https://drive.google.com/file/d/1ARP8GS5LMGYc8T8lFTuYkBl9I9kJoIiL/view?usp=sharing), [emotion](https://drive.google.com/file/d/1sWx3ze8XfZEGf-kPcmiYpY9EOzugdzgu/view?usp=sharing).
-- Download face expression features into `features` folder from [mvsa_single](https://drive.google.com/file/d/1akwt0-8fqea2WinTDWAk68qRDkYqEEiR/view?usp=sharing), [mvsa_multiple](https://drive.google.com/file/d/1h6A8KjhVEy2QSEBGQS8kH2HQxEa__a2S/view?usp=sharing) 
+- Download pretrained models to `pre_trained` from : [Link](https://drive.google.com/drive/folders/1T_JcvA0-pfzkzmVgFTOc8LHUEhhzEvUG?usp=sharing)
+- Download face expression features into `features` folder from : [Link](https://drive.google.com/drive/folders/1T_JcvA0-pfzkzmVgFTOc8LHUEhhzEvUG?usp=sharing)
 - Extract image features: `python feature_extraction/extract_img_feats.py --vtype imagenet --mvsa single --ht False`
 - Extract text features: `python feature_extraction/extract_txt_feats.py --btype robertabase --mvsa single --ht True`
 
